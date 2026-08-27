@@ -24,6 +24,8 @@ if es_primo == True:
 else:
     print("No es primo")
 
+    
+
 
 
 
