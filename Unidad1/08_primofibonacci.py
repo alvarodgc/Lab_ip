@@ -1,4 +1,3 @@
-
 numero = int(input("Leer numero: "))
 es_primo = True
 if numero <= 1:
@@ -23,15 +22,3 @@ if es_primo == True:
         print("No esta en Fibonacci")
 else:
     print("No es primo")
-
-    
-
-
-
-
-
-
-
-    
-    
-    
