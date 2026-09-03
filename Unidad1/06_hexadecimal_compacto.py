@@ -1,14 +1,13 @@
-numero , hexadecimal=15 , ""
+numero , hexadecimal=17, ""
 if numero == 0:  print ("0")
 while numero > 0:
     residuo = numero % 16
-    if residuo < 10:print (residuo)
-    if residuo == 10:print ("A")
-    if residuo == 11:print ("B")
-    if residuo == 12:print ("C")
-    if residuo == 13:print ("D")
-    if residuo == 14:print ("E")
-    if residuo == 15:print ("F")
+    if residuo == 10:residuo = "A"
+    if residuo == 11:residuo = "B"
+    if residuo == 12:residuo = "C"
+    if residuo == 13:residuo = "D"
+    if residuo == 14:residuo = "E"
+    if residuo == 15:residuo = "F"
     hexadecimal = str(residuo) + hexadecimal
     numero = numero // 16 
     print (hexadecimal)
