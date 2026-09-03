@@ -1,4 +1,4 @@
-numero=8  #le pongo valor a numero
+numero=16  #le pongo valor a numero
 if numero == 0: #si numero es igual a 0 imprime 0, lo compara gracias al ==
     print ("0")
 
