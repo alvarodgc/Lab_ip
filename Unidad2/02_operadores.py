@@ -4,6 +4,3 @@ o2 = int(input("Ingrese el segundo numero: "))
 resultado = str(o1) + operador + str(o2)
 resultado = eval(resultado)
 print(resultado)
-
-
-else:
